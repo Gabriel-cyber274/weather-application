@@ -1,0 +1,115 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: black;
+}
+html {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.center {
+    justify-content: center;
+    display: flex;
+}
+.contain{
+    width: 500px;
+    box-shadow: 0px 5px 15px white;
+    border-radius: 20px;
+}
+.mainHeader h1 {
+    text-align: center;
+    color: white;
+    margin: 10px;
+}
+.header {
+    background-color: white;
+    text-align: center;
+    padding: 0.5em;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    font-size: 1rem;
+}
+.body {
+    height: 520px;
+    background-color: rgb(146, 146, 243);
+    position: relative;
+}
+.footer {
+    height: 30px;
+    background-color: white;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+.weatherIcon {
+    width: 200px;
+    height: 200px;
+    margin: 30px; 
+}
+.imgCont {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.temp {
+    text-align: center;
+    font-size: 5rem;
+    font-weight: 600;
+}
+.tempM {
+    font-size: 4rem;
+}
+.description {
+    font-size: 2rem;
+    text-align: center;
+    margin-top: 10px;
+}
+.location {
+    font-size: 1.5rem;
+    text-align: center;
+    font-weight: 400;
+}
+.info {
+    background-color: red;
+    text-align: center;
+    display: none;
+}
+.another {
+    background-color: white;
+    position: absolute;
+    top: 40%;
+    width: 60%;
+    padding: 0.5em;
+    text-align: center;
+}
+.choices  button {
+    width: 50px;
+    border: none;
+    border: 10px;
+    padding: 0.5em;
+    background-color: green;
+}
+.countryI {
+    width: 200px;
+    height: 40px;
+    background-color: black;
+    color: white;
+    border: none;
+    outline: none;
+    padding-left: 10px;
+}
+.send {
+    height: 40px;
+    width: 50px;
+    background-color: green;
+    color: white;
+    border: none;
+    outline: none;
+}
+.input {
+    display: none;
+}
+.another {
+    display: none;
+}
